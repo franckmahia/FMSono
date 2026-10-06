@@ -1,0 +1,5 @@
+module SonoDSP {
+    header "SonoDSP.h"
+    header "SonoAudio.h"
+    export *
+}

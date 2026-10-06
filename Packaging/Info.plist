@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleName</key><string>FMSono</string>
+    <key>CFBundleDisplayName</key><string>FMSono</string>
+    <key>CFBundleIdentifier</key><string>fr.franckmahia.FMSono</string>
+    <key>CFBundleExecutable</key><string>FMSono</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>0.1.0</string>
+    <key>CFBundleVersion</key><string>1</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>LSMinimumSystemVersion</key><string>14.0</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSMicrophoneUsageDescription</key><string>FMSono utilise le micro choisi pour afficher son niveau et amplifier ta voix sur la sortie audio du Mac. Aucun son n’est enregistré ni envoyé sur Internet.</string>
+    <key>NSSupportsAutomaticTermination</key><false/>
+</dict></plist>

@@ -1,0 +1,15 @@
+.build/
+dist/
+.DS_Store
+*.xcuserstate
+.swiftpm/
+.venv/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+.local/
+.env
+.env.*
+.codex/
+.agents/
+.aws/
