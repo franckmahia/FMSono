@@ -159,7 +159,7 @@ static void detect_feedback(SonoProcessor *p) {
     } else {
         configure_filter(&p->notches[p->active_notches], p->output_rate, hz, true);
         p->notch_hz[p->active_notches++] = (float)hz;
-        p->safety_gain *= 0.50118723;
+        p->safety_gain *= 0.50118723; // 10^(-3/20) = -3 dB
         atomic_store(&p->notch_count, p->active_notches);
         atomic_store(&p->safety_db, (float)(-20 * log10(p->safety_gain)));
     }

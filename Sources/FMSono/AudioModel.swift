@@ -95,7 +95,7 @@ final class AudioModel: ObservableObject {
             stop("La sortie système a changé. Vérifie son volume, puis relance la diffusion.")
         }
         defaultOutputID = newDefault
-        if !initializedSelection {
+        if !initializedSelection && !active {
             let savedUID = UserDefaults.standard.string(forKey: "inputUID")
             inputID = inputs.first(where: { $0.uid == savedUID })?.id
                 ?? inputs.first(where: { $0.name.localizedCaseInsensitiveContains("fast track") })?.id
